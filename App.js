@@ -17,13 +17,13 @@ export default class App extends Component {
   componentWillMount() {
 
     firebase.initializeApp({
-      apiKey: "AIzaSyAlPce_RFRvGdXJGfxTbptKuyaaLDRR6kU",
-      authDomain: "ithinka-chat-app-60.firebaseapp.com",
-      databaseURL: "https://ithinka-chat-app-60.firebaseio.com",
+      apiKey: "secret",
+      authDomain: "secret",
+      databaseURL: "secret",
       projectId: "ithinka-chat-app-60",
       storageBucket: "",
-      messagingSenderId: "512450821803",
-      appId: "1:512450821803:web:21a044c5c6046e4d"
+      messagingSenderId: "secret",
+      appId: "secret"
     });
   }
   render() {
